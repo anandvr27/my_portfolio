@@ -1,0 +1,112 @@
+.logo{
+    font-family: Magneto;
+    font-size: 24px;
+    margin-right: 20px;
+}
+.whitetext{
+    color: White;
+}
+
+body
+{
+	font-family: 'Varela Round', sans-serif !important;
+}
+
+.login{
+    width: 500px;
+}
+
+.card{
+    background-color: gray;    
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.logincon{
+    width: 600px;
+    margin-top: 100px
+}
+
+.button{
+    width:380px;
+    height:45px;
+    padding: 5px;
+    background-color:coral;
+    color: azure;
+    
+}
+
+.fileupload{
+    margin-top: 100px;
+}
+
+.widget{
+    height: 300px;
+    width: 800px;
+    background: white;
+    margin-top: -70px;
+    border-radius: 20px
+    
+}
+
+.hire{
+    width: 130px;
+    margin: 0  auto;
+ }
+
+.UC{
+width: 300px;
+    margin:100px auto;
+    color: white;
+    font-family: fantasy;
+}
+.modalbody{
+  margin: 10px 50px;
+}
+
+.msgbox{
+    width: 380px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+h3{
+    text-align: center;
+    font-family: fantasy;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+.methumb{
+    width: 150px;
+    margin: 200px  auto 0 auto;
+}
+
+.modal.fade .modal-dialog {
+  transform: translate3d(0, 0, 0);
+}
+
+.modal.in .modal-dialog {
+  transform: translate3d(0, 70vh, 0);
+}
+
+#video-background {
+/*  making the video fullscreen  */
+position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(images/Hello-World.jpg) no-repeat;
+    background-size: cover; 
+}
